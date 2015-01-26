@@ -31,7 +31,6 @@ module.exports = [
     {
         name: 'Fluxy',
         repo: 'https://github.com/jmreidy/fluxy',
-        site: 'http://deloreanjs.com/',
         description: 'An implementation of Facebook\'s Flux architecture',
         traits: [ 'actions', 'stores', 'dispatcher', 'constants', 'server-side' ]
     },
@@ -52,7 +51,6 @@ module.exports = [
     {
         name: 'Reflux',
         repo: 'https://github.com/spoike/refluxjs',
-        site: 'http://deloreanjs.com/',
         description: 'A simple library for unidirectional dataflow architecture inspired by ReactJS Flux.',
         traits: [ 'actions', 'stores', 'abstracted-dispatcher' ]
     },
