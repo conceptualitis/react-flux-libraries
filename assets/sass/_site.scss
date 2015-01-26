@@ -1,0 +1,65 @@
+body {
+    position: relative;
+    height: 100%;
+    background-color: $body-bg;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    color: $font;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+a {
+    color: $link;
+
+    &:hover {
+        color: darken($link, 20%);
+    }
+}
+
+.content {
+    margin-left: 250px;
+}
+
+.padded {
+    padding: 2em;
+    max-width: 710px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: $nav-bg;
+    color: #fff;
+
+    label {
+        display: block;
+        padding: 1em;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($nav-bg, 5%);
+        }
+    }
+
+    p {
+        padding: 1em;
+        margin: 0;
+    }
+}
+
+.libraries {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        &:hover {
+            background-color: lighten($nav-bg, 60%);
+        }
+    }
+}
